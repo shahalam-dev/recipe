@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 18px 0;
+}
+
+ul > li > img {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.container {
+  width: 992px;
+  margin: 100px auto;
+}
+
+.search-area {
+  width: 100%;
+  padding: 30px 30%;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+input.search-box {
+  width: 80%;
+  padding: 10px 20px;
+  border: 1px solid #e7e7e7;
+  color: #999;
+}
+
+button.submit {
+  width: 20%;
+  box-sizing: border-box;
+  margin-left: -8px;
+  padding: 10px 20px;
+  outline: none;
+  border: 1px solid #ff7582;
+  background-color: #ff7582;
+  cursor: pointer;
+}
+
+button.submit i {
+  font-size: 14px;
+  color: #fff;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px 30px;
+}
+
+.single-card {
+  width: 100%;
+  min-height: 350px;
+  background-color: #e7e7e7;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.single-card img {
+  border-radius: 10px 10px 0 0;
+  height: 70%;
+  width: 100%;
+}
+
+.single-meal > img {
+  width: 50%;
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.single-meal-content {
+  margin: 30px 25%;
+}
+
+.not-found-area {
+  grid-column-start: 2;
+  text-align: center;
+  padding: 30px;
+}
+
+.logo-container {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.logo-container span {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #ff7582;
+  font-weight: 700;
+}

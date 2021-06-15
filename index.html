@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans+JP:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header-area">
+      <div class="logo-container">
+        <a href="index.html"><span>Recipe...</span></a>
+      </div>
+    </header>
+    <div class="container" id="single-meal">
+      <div class="search-area">
+        <input
+          onkeyup="searchInput()"
+          type="search"
+          class="search-box"
+          id="search"
+        />
+        <button onclick="searchInput()" class="submit">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+      <div class="row" id="recipe-area">
+        <div class="single-card">
+          <img
+            src="https://www.themealdb.com/images/media/meals/6ut2og1619790195.jpg"
+            alt=""
+          />
+          <h2>Seri muka kuih</h2>
+        </div>
+        <div class="single-card">
+          <img
+            src="https://www.themealdb.com/images/media/meals/bc8v651619789840.jpg"
+            alt=""
+          />
+          <h2>Beef Rendang</h2>
+        </div>
+        <div class="single-card">
+          <img
+            src="https://www.themealdb.com/images/media/meals/hx335q1619789561.jpg"
+            alt=""
+          />
+          <h2>Roti john</h2>
+        </div>
+        <div class="single-card">
+          <img
+            src="https://www.themealdb.com/images/media/meals/wai9bw1619788844.jpg"
+            alt=""
+          />
+          <h2>Nasi lemak</h2>
+        </div>
+        <div class="single-card">
+          <img
+            src="https://www.themealdb.com/images/media/meals/020z181619788503.jpg"
+            alt=""
+          />
+          <h2>Ayam Percik</h2>
+        </div>
+        <div class="single-card">
+          <img
+            src="https://www.themealdb.com/images/media/meals/adxcbq1619787919.jpg"
+            alt=""
+          />
+          <h2>Apam balik</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="single-meal-area"></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
